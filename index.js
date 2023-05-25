@@ -14,7 +14,7 @@ const beginning = [`Good morning! Let\'s get the day started with  `,
 const middle = [` butterfly kicks and  `, ` toe touches and  `, ` high-knees and `];
 
 // add a space before first letter of any new elements added!!
-const end = [' squats!', ' jumping-jacks!', ' lunges!', 'burpees!' ];
+const end = [' squats!', ' jumping-jacks!', ' lunges!', ' burpees!' ];
 
 const finishedSentence = [];
 
