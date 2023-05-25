@@ -10,7 +10,7 @@ function randomNum(min, max) {
 const beginning = [`Good morning! Let\'s get the day started with  `, 
   `Good Afternoon! Time for `, `Good Evening! Not to late to squeeze in `];
 
-// add a space before first letter of any new elements added!!
+// add a space at the beginning and end of any new elements added!!
 const middle = [` butterfly kicks and  `, ` toe touches and  `, ` high-knees and `];
 
 // add a space before first letter of any new elements added!!
