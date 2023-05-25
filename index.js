@@ -39,7 +39,8 @@ const sentenceMiddle = () => {
 };
 
 const sentenceEnd = () => {
-    finishedSentence.push(end[Math.floor(Math.random()) * end.length]);
+    finishedSentence.push(end[Math.floor(Math.random() * end.length)]);
+
     return finishedSentence;
 };
 
