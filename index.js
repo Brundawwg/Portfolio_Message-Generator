@@ -7,12 +7,14 @@ function randomNum(min, max) {
     max = Math.floor(25);
     return Math.floor(Math.random() * (max - min + 1) + min)};
 
-const beginning = [`Good morning! Let\'s get the day started with ${randomNum()} `, 
-  `Good Afternoon! Time for ${randomNum()} `, `Good Evening! Not to late to squeeze in ${randomNum()} `];
+const beginning = [`Good morning! Let\'s get the day started with  `, 
+  `Good Afternoon! Time for `, `Good Evening! Not to late to squeeze in `];
 
-const middle = [`butterfly kicks and ${randomNum()} `, `toe touches and ${randomNum()} `, `high-knees and ${randomNum()} `];
+// add a space before first letter of any new elements added!!
+const middle = [` butterfly kicks and  `, ` toe touches and  `, ` high-knees and `];
 
-const end = ['squats!', 'jumping-jacks!', 'lunges!', 'burpees!' ];
+// add a space before first letter of any new elements added!!
+const end = [' squats!', ' jumping-jacks!', ' lunges!', 'burpees!' ];
 
 const finishedSentence = [];
 
@@ -46,7 +48,9 @@ const sentenceEnd = () => {
 
 const workoutDisplay = () => {
     sentenceStart();
+    finishedSentence.push(randomNum());
     sentenceMiddle();
+    finishedSentence.push(randomNum());
     sentenceEnd();
     return finishedSentence.join('');
 };
